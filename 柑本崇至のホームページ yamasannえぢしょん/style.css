@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-color:rgb(226, 226, 226)
+}
+#title{
+    padding: 20px 0px;
+    font-size: 30px;
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+#takashipage{
+    font-size: 100px;
+    display: block;
+    text-align: center;
+}
+#jikoshokai{
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding:  10px 10px 40px 50px;
+    border: 0.5px solid black;
+    border-radius: 10px;
+}
+#boku{
+    padding-top: 20px;
+}
+#kouzisan{
+    font-size: 30px;
+    margin-left: 100px;
+}
+#comenttakashi{
+    margin: 50px 100px 20px 100px;
+}
+
+#button_comment{
+    padding: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 38px;
+}
+#input_button{
+    font-size: 50px;
+    display: block;
+    margin-left: 100px;
+}
+#all_comment{
+    margin: 30px 50px 10px 30px;
+    border-top: 2px solid black;
+}
+#comment_list{
+    font-size: 25px;
+    margin:70px;
+}
+#name{
+    font-size: 20px;
+    margin-left: 100px;
+    display: block;
+}
+.comment{
+    border-bottom: 2px solid black;
+}
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+}
+.comment-header span:last-child {
+    font-size: 15px;
+    color: #000;   /* ついでに少し薄く（任意） */
+}
+/* さらに表示・戻すボタン共通 */
+.more-area button {
+    font-size: 24px;
+    padding: 15px 40px;
+    display: block;
+    margin: 30px auto;   /* ← 中央配置 */
+    cursor: pointer;
+    border-radius: 8px;
+}
+#input_comment {
+    width: calc(100% - 200px); /* 画面全体から左マージン分を引く */
+    margin-left: 100px;        /* 左側の固定位置 */
+    height: 150px;             /* 高さ固定 */
+    resize: none;              /* ユーザーによるサイズ変更禁止 */
+    box-sizing: border-box;    /* paddingやborderを幅に含める */
+}
+
+
+
+/* さらに表示 */
+#more_button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+/* 戻すボタン */
+#reset_button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+.hidden {
+    display: none;
+}
+#not_comment{
+    font-size: 20px;
+    text-align: center;
+}
+
+
